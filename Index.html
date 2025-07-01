@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Musa Idris | Developer Card</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <section class="card-section">
+    <h1 class="section-heading">💻 Meet Musa Idris</h1>
+
+    <div class="card-tabs">
+      <button class="tab-btn active" data-tab="about">About</button>
+      <button class="tab-btn" data-tab="skills">Skills</button>
+      <button class="tab-btn" data-tab="projects">Projects</button>
+    </div>
+
+    <div class="card-wrapper">
+      <!-- About Card -->
+      <div class="dev-card tab-content active" id="about">
+        <img src="IMG.jpg" class="dev-avatar"/>
+        <h2 class="dev-name">Musa Idris</h2>
+        <p class="dev-title typing" id="typing-text"></p>
+        <p class="dev-bio">
+          I build sleek, responsive, and high-performance websites using HTML, CSS, and JavaScript.
+        </p>
+        <blockquote class="dev-quote">“Code is art with purpose.”</blockquote>
+        <a href="Musa-Idris-Resume.pdf" download class="btn primary-btn">📄 Download Resume</a>
+      </div>
+
+      <!-- Skills Card -->
+      <div class="dev-card tab-content" id="skills">
+        <h2 class="dev-name">Core Skills</h2>
+        <div class="dev-skills">
+          <span>HTML5</span>
+          <span>CSS3</span>
+          <span>JavaScript</span>
+          <span>Responsive Design</span>
+          <span>Git</span>
+        </div>
+      </div>
+
+      <!-- Projects Card -->
+      <div class="dev-card tab-content" id="projects">
+        <h2 class="dev-name">Project: Inventory System</h2>
+        <p class="dev-bio">
+          Built a smart inventory tracker using vanilla JS that handles restocks, vendor prices, and low-stock alerts.
+        </p>
+        <a href="#" class="btn primary-btn">🔗 View Live Demo</a>
+        <a href="#" class="btn secondary-btn">💻 GitHub Repo</a>
+      </div>
+    </div>
+  </section>
+
+  <button id="dark-toggle" class="dark-toggle">🌙 Toggle Dark Mode</button>
+  <script src="script.js"></script>
+</body>
+</html>
